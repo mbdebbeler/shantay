@@ -9,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Monica Debbeler"]
   spec.email         = ["m.b.debbeler@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Gem that consumes the No Key No Shade API.}
+  spec.homepage      = "https://github.com/mbdebbeler/shantay"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
