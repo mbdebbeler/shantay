@@ -5,8 +5,10 @@ require 'vcr'
 require 'byebug'
 
 VCR.configure do |c|
-  c.cassette_library_dir = "fixtures"
+  c.cassette_library_dir = "spec/fixtures"
   c.hook_into :webmock
+  c.configure_rspec_metadata!
+  c.debug_logger = $stderr
 end
 
 RSpec.configure do |config|
