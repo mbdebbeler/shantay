@@ -2,6 +2,7 @@ require "bundler/setup"
 require "shantay"
 require 'webmock/rspec'
 require 'vcr'
+require 'byebug'
 
 VCR.configure do |c|
   c.cassette_library_dir = "fixtures"
