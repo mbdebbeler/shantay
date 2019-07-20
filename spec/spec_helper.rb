@@ -1,5 +1,12 @@
 require "bundler/setup"
 require "shantay"
+require 'webmock/rspec'
+require 'vcr'
+
+VCR.configure do |c|
+  c.cassette_library_dir = "fixtures"
+  c.hook_into :webmock
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
