@@ -41,3 +41,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Shantay project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/shantay/blob/master/CODE_OF_CONDUCT.md).
+
+##Sample Change
+Testing Git permissions.
